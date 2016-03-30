@@ -21,6 +21,8 @@ $(function () {
 
                     film = tableBody.append(
                         '<tr><td>' + data.films[i].title + '</td><br><br>' +
+                        '<td>' + data.films[i].first_name+' '+data.films[i].last_name + '</td><br><br>' +
+                        '<td>' + data.films[i].gender + '</td><br><br>' +
                         '<td>' + data.films[i].year + '</td><br><br>' +
                         '<td>' + data.films[i].synopsis + '</td><br><br>' +
                         '<td>' + Math.trunc(H) + 'h' + Math.trunc(M) + '</td><br><br></tr>'

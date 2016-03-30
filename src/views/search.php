@@ -24,6 +24,22 @@
           </div>
         </div>
         <div class="form-group">
+          <label for="directorInput" class="col-sm-2 control-label">Réalisateur</label>
+          <div class="col-sm-10">
+            <input name="director" type="text" class="form-control" id="directorInput" placeholder="Réalisateur du film">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="directorGenderInput" class="col-sm-2 control-label">Genre du Réalisateur</label>
+          <div class="col-sm-10">
+            <select name="directorGender" class="form-control" id="directorGenderInput">
+              <option value="allGender">Tous</option>
+              <option value="M">M</option>
+              <option value="F">F</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
           <label for="durationInput" class="col-sm-2 control-label">Durée</label>
           <div class="col-sm-10">
             <select name="duration" class="form-control" id="titleInput">
@@ -67,6 +83,12 @@
         Titre
       </th>
       <th>
+        Réalisateur
+      </th>
+      <th>
+        Genre du Réalisateur
+      </th>
+      <th>
         Année
       </th>
       <th>
@@ -88,6 +110,9 @@
 
       </td>
       <td id="durationTable">
+
+      </td>
+      <td id="directorTable">
 
       </td>
     </tr>
